@@ -1,0 +1,7 @@
+<resources>
+    <!-- Задаёт поля для кнопки добавления товара на главном экране -->
+    <dimen name="fab_margin">6dp</dimen>
+    <!-- Общее значение полей, которое распространяется на всё приложение -->
+    <dimen name="activity_margin">16dp</dimen>
+</resources>
+

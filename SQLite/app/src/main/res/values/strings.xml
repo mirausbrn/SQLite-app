@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">SQLite</string>
+
+    <!-- Загаловок для пустового вида в базе данных магазина[CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">Товаров в магазине пока нет…</string>
+    <!-- Подзаголовок вида, который поясняет пользователю добавить товары[CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Начните добавляя товары</string>
+
+    <!-- Загаловок для пустового вида в базе данных магазина[CHAR LIMIT=50] -->
+    <string name="editor_insert_message_failed">Ошибка добавления товара</string>
+    <!-- Подзаголовок вида, который поясняет пользователю добавить товары[CHAR LIMIT=50] -->
+    <string name="editor_insert_message_success">Товар добавлен</string>
+
+    <!-- Примечание для опции из выпадающего меню, которая добавляет псевдоданные о товарах [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Ввести псевдоданные</string>
+    <!-- Примечание для опции из выпадающего меню, которая удаляет все товары из базы[CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Удалить все товары</string>
+
+    <!-- Заголовок для catalog_activity на добавление нового товара [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_good">Добавить товар</string>
+    <!-- Примечание для топ бара верхнего заголовка приложения" [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_good">Редактировать товар</string>
+
+    <!-- Примечание для опции меню редактирования сохранять или отменить изменение [CHAR LIMIT=20] -->
+    <string name="action_save">Сохранить</string>
+    <!--Примечание для опции меню редактирования для удаления товара  [CHAR LIMIT=20] -->
+    <string name="action_delete">Удалить</string>
+
+    <!-- Примечание для базовой категории с основными сведениями о товаре в режиме редактирования [CHAR LIMIT=30] -->
+    <string name="category_overview">Сведения о товаре</string>
+
+    <!-- Примечание для категории цвета в режиме редактирования[CHAR LIMIT=30] -->
+    <string name="category_color">Цвет</string>
+    <!-- Примечание для информации о цене товара[CHAR LIMIT=30] -->
+    <string name="category_price">Цена</string>
+    <!-- Текст подсказки для поля "имя товара" режима редактирования [CHAR LIMIT=30] -->
+    <string name="hint_good_name">Имя</string>
+    <!-- Текст подсказки для поля "имя товара" режима редактирования [CHAR LIMIT=30] -->
+    <string name="hint_good_producer">Производитель</string>
+    <!-- Текст подсказки для поля "тип товара" в режиме редактирования [CHAR LIMIT=30] -->
+    <string name="hint_for_type">Тип товара</string>
+    <!-- Текст подсказки для поля "цена" в режиме редактирования[CHAR LIMIT=30] -->
+    <string name="hint_for_price">Стоимость </string>
+    <!-- Выбранная валюта для отображения цены (рубли) [CHAR LIMIT=5] -->
+    <string name="currency_for_good">руб.</string>
+
+    <!-- Обозначение валюты для всего списка товаров" [CHAR LIMIT=20] -->
+    <string name="currency_for_goodlist">Руб.</string>
+
+    <!-- Примечание для информации о категории товара[CHAR LIMIT=30] -->
+    <!-- Текст подсказки для выпадающего меню "категория" в режиме редактирования-->
+   <string name="category_goods_category">Категория  товара</string>
+   <!-- Примечание для опции из выпадающего меню, которая добавляет категорию товара "стирка и уборка" [CHAR LIMIT=20] -->
+    <string name="category_goods_washing">Стирка и уборка</string>
+    <!-- Примечание для опции из выпадающего меню, которая добавляет категорию товара "хранение вещей" [CHAR LIMIT=20] -->
+    <string name="category_goods_storing">Хранение вещей</string>
+    <!-- Примечание для опции из выпадающего меню, которая добавляет категорию товара "напольные покрытия" [CHAR LIMIT=20] -->
+    <string name="category_goods_covering">Напольные покрытия</string>
+    <!-- Примечание для опции из выпадающего меню, которая добавляет категорию товара "скобяные изделия и замки" [CHAR LIMIT=20] -->
+    <string name="category_goods_locks">Скобяные изделия и замки</string>
+    <!-- Примечание для опции из выпадающего меню, которая добавляет категорию товара "стремянки" [CHAR LIMIT=20] -->
+    <string name="category_goods_ladders">Стремянки</string>
+    <!-- Примечание для опции из выпадающего меню, которая добавляет категорию товара "тележки" [CHAR LIMIT=20] -->
+    <string name="category_goods_trucks">Тележки</string>
+    <!-- Примечание для опции из выпадающего меню, которая добавляет категорию товара "термометры" [CHAR LIMIT=20] -->
+    <string name="category_goods_thermometers">Термометры</string>
+    <!-- Примечание для опции из выпадающего меню, которая добавляет категорию товара "посуда" [CHAR LIMIT=20] -->
+    <string name="category_goods_dishes">Посуда</string>
+    <!-- Примечание для опции из выпадающего меню, для категории товаров по умолчанию "Другое"-->
+    <string name="category_goods_others">Другое</string>
+
+
+    <!-- Примечание для опции из выпадающего меню, которая добавляет цвет товара "синий" [CHAR LIMIT=20] -->
+    <string name="color_blue">Синий</string>
+    <!-- Примечание для опции из выпадающего меню, которая добавляет цвет товара "красный" [CHAR LIMIT=20] -->
+    <string name="color_red">Красный</string>
+    <!-- Примечание для опции из выпадающего меню, которая добавляет цвет товара "чёрный" [CHAR LIMIT=20] -->
+    <string name="color_black">Чёрный</string>
+    <!-- Примечание для опции из выпадающего меню, которая добавляет цвет товара "белый" [CHAR LIMIT=20] -->
+    <string name="color_white">Белый</string>
+    <!-- Примечание для опции из выпадающего меню, которая добавляет цвет товара "жёлтый" [CHAR LIMIT=20] -->
+    <string name="color_yellow">Жёлтый</string>
+    <!-- Примечание для опции из выпадающего меню, которая добавляет цвет товара "фиолетовый" [CHAR LIMIT=20] -->
+    <string name="color_purple">Фиолетовый</string>
+    <!-- Примечание для опции из выпадающего меню, которая добавляет цвет товара "оранжевый" [CHAR LIMIT=20] -->
+    <string name="color_orange">Оранжевый</string>
+    <!-- Примечание для опции из выпадающего меню, которая добавляет цвет товара "зелёный" [CHAR LIMIT=20] -->
+    <string name="color_green">Зелёный</string>
+    <string name="color_others">Другое</string>
+
+
+    <!-- Содержание предупреждающих и оповещающих сообщений -->
+    <string name="editor_update_failed">Ошибка обновления товара!</string>
+    <string name="editor_update_success">Товар обновлён</string>
+    <string name="unsaved_changes_dialog_msg">Сохранить изменения?</string>
+    <string name="discard">Выйти не сохранив</string>
+    <string name="keep_editing">Продолжить редактировать</string>
+    <string name="delete_dialog_msg">Удалить этот товар?</string>
+    <string name="cancel">Закрыть</string>
+    <string name="editor_delete_good_failed">Ошибка удаления</string>
+    <string name="editor_delete_good_success">Товар удалён</string>
+    <string name="delete_all_dialog_msg">Вы действительно хотите удалить все товары в базе данных? Восстановление будет невозможно</string>
+
+
+</resources>

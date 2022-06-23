@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    tools:context=".EditorActivity">
+
+    <!-- Представление категории -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:orientation="horizontal">
+
+        <!-- Примечание для полей -->
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_overview" />
+
+        <!-- Поля для ввода данных -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingLeft="4dp">
+
+            <!-- Поле с названием товара-->
+            <EditText
+                android:id="@+id/edit_good_name"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_good_name"
+                android:inputType="textCapWords" />
+
+            <!-- Поле для ввода типа товара -->
+            <EditText
+                android:id="@+id/edit_good_type"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_for_type"
+                android:inputType="textCapWords" />
+
+            <!-- Поле для ввода имени производителя -->
+            <EditText
+                android:id="@+id/edit_for_producer"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_good_producer"
+                android:inputType="textCapWords" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Представление для выпадающего списка с категориями товаров  -->
+    <RelativeLayout
+        android:id="@+id/container_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="@string/category_goods_category" />
+
+        <Spinner
+            android:id="@+id/spinner_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="109dp"
+            android:layout_marginLeft="109dp"
+            android:spinnerMode="dropdown" />
+    </RelativeLayout>
+
+
+    <!--Представление для характеристики товара - цвета -->
+    <LinearLayout
+        android:id="@+id/container_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Подпись для выпадающего списка -->
+        <TextView
+            android:text="@string/category_color"
+            style="@style/CategoryStyle" />
+
+        <!-- Поле для ввода -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <!-- Выпадающий список с цветами -->
+            <Spinner
+                android:id="@+id/spinner_color"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:paddingRight="16dp"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Для определения цены товара -->
+    <LinearLayout
+        android:id="@+id/container_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Подпись для цены -->
+        <TextView
+            android:text="@string/category_price"
+            style="@style/CategoryStyle" />
+
+        <!-- Поле для ввода -->
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="4dp">
+
+            <!-- Сюда задаётся стоимость товара -->
+            <EditText
+                android:id="@+id/edit_for_price"
+                android:hint="@string/hint_for_price"
+                android:inputType="number"
+                style="@style/EditorFieldStyle" />
+
+            <!-- Валюта для ввода стоимости (руб.) -->
+            <TextView
+                android:id="@+id/label_currency"
+                android:text="@string/currency_for_good"
+                style="@style/EditorCurrencStyle"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

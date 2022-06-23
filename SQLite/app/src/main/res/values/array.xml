@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Эти опции отображаются для выбора в выпадающем списке для категорий товаров -->
+    <string-array name="array_category_options">
+        <item>@string/category_goods_others</item>
+        <item>@string/category_goods_storing</item>
+        <item>@string/category_goods_covering</item>
+        <item>@string/category_goods_locks</item>
+        <item>@string/category_goods_ladders</item>
+        <item>@string/category_goods_trucks</item>
+        <item>@string/category_goods_thermometers</item>
+        <item>@string/category_goods_dishes</item>
+        <item>@string/category_goods_washing</item>
+    </string-array>
+
+    <!--Эти опции отображаются для выбора цветов в выпадающем списке цветов товаров-->
+    <string-array name="array_color_options">
+        <item>@string/color_others</item>
+        <item>@string/color_blue</item>
+        <item>@string/color_red</item>
+        <item>@string/color_black</item>
+        <item>@string/color_white</item>
+        <item>@string/color_yellow</item>
+        <item>@string/color_purple</item>
+        <item>@string/color_orange</item>
+        <item>@string/color_green</item>
+
+    </string-array>
+
+</resources>
+
